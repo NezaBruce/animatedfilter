@@ -19,6 +19,13 @@ async function fetchpopular(){
         {popular.map((movie)=>{
      return <Movie key={movie.id} movie={movie}/>
         // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
+        // <div>{movie}</div>
     })}
     </div>
   )
