@@ -12,21 +12,22 @@ async function fetchpopular(){
     const movies=await data.json();
     setPopular(movies.results);
     // console.log(movies.results)
-    <Filter setFiltered={setFiltered} setActiveId={setActiveId} filtered={setfiltered}/>
-    };
+    // <Filter setFiltered={setFiltered} setActiveId={setActiveId} filtered={setfiltered}/>
+  };
   return (
     <div className="popular">
         {popular.map((movie)=>{
-     return <Movie key={movie.id} movie={movie}/>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-        // <div>{movie}</div>
-    })}
+          return <Movie key={movie.id} movie={movie}/>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+          // <div>{movie}</div>
+        })}
+        <Filter setFiltered={setFiltered} setActiveId={setActiveId} activeId={activeId} popular={popular}/>
     </div>
   )
 }
