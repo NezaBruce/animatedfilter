@@ -12,7 +12,7 @@ async function fetchpopular(){
     const movies=await data.json();
     setPopular(movies.results);
     // console.log(movies.results)
-    
+    <Filter setFiltered={setFiltered} setActiveId={setActiveId} filtered={setfiltered}/>
     };
   return (
     <div className="popular">
