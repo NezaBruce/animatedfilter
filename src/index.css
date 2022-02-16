@@ -23,3 +23,20 @@ img{
   height: 30vh;
   object-fit: cover;
 }
+
+/* filterContainer */
+.filterContainer button{
+  margin-right: 2rem;
+  color: rgb(68, 98, 168);
+  border: none;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5 1rem;
+  cursor: pointer;
+  border:2px solid rgb(68, 98, 168);
+  font-weight: bold;
+}
+button.active{
+  background-color: rgb(68, 98, 168);
+  color: white;
+}
