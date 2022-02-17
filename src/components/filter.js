@@ -18,19 +18,11 @@ function Filter  ({setFiltered,setActiveId,activeId,popular}){
       <button className={activeId === 0 ? 'active' : ""} onClick={()=>setActiveId(0)}>All</button>  
       <button className={activeId === 35 ? 'active' : ""} onClick={()=>setActiveId(35)}>Comedy</button>  
       <button className={activeId === 28 ? 'active' : ""} onClick={()=>setActiveId(28)}>Action</button>  
+      <button className={activeId === 0 ? 'active' : ""} onClick={()=>setActiveId(0)}>All</button>  
+      <button className={activeId === 35 ? 'active' : ""} onClick={()=>setActiveId(35)}>Comedy</button>  
+      <button className={activeId === 28 ? 'active' : ""} onClick={()=>setActiveId(28)}>Action</button>  
     </div>
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
-    // SLEPPLEASECOME
+ 
   )
 }
 export default Filter
