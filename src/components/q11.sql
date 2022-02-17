@@ -15,9 +15,5 @@ IF(new.transactionType = 'OUT') THEN
         UPDATE ProductsAvailability SET lastTransactionDateTime = new.transactionDateTime WHERE productId=new.productId;
     END IF;   
 END IF;
--- gettobed
--- gettobed
--- gettobed
--- gettobed
--- gettobed
+
 END $$
